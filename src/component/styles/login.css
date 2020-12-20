@@ -1,0 +1,51 @@
+.login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.login__image {
+    object-fit: contain;
+    width: 300px;
+}
+.loginForm__wrapper {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 3px;
+    background: white;
+}
+.loginForm__imageWrapper {
+    display: flex;
+}
+.loginForm__image {
+    width: 40%;
+    margin: auto;
+}
+.login__field {
+    height: 25px;
+    width: 92%;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.login__button {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #3498DB;
+    background: #3498DB;
+    color: white;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+.signup__text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
